@@ -3,6 +3,7 @@
 @import "utils/mixins";
 @import "utils/fonts";
 @import "utils/reset";
+@import "blocks/header";
 
 html {
   line-height: $mainLineHeight;
@@ -83,6 +84,7 @@ section,
   margin: 0 auto;
   min-height: 100vh;
   min-width: 100vh;
+
 }
 
 .content-wrapper {
@@ -110,7 +112,6 @@ section,
     max-width: $smPhoneWidth;
   }
 }
-
 
 
 // Modules:
