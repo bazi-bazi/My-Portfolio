@@ -5,24 +5,24 @@
 @import "utils/reset";
 @import "blocks/header";
 
-html {
-  line-height: $mainLineHeight;
-  font-size: $mainFontSize;
-  color: $mainFontColor;
-  height: 100%;
+// html {
+//   line-height: $mainLineHeight;
+//   font-size: $mainFontSize;
+//   color: $mainFontColor;
+//   height: 100%;
 
-  @media screen and (max-width: $desktopWidth) {
-    font-size: 16px;
-  }
+//   @media screen and (max-width: $desktopWidth) {
+//     font-size: 16px;
+//   }
 
-  @media screen and (max-width: $tableWidth) {
-    font-size: 15px;
-  }
+//   @media screen and (max-width: $tableWidth) {
+//     font-size: 15px;
+//   }
 
-  @media screen and (max-width: $phoneWidth) {
-    font-size: 14px;
-  }
-}
+//   @media screen and (max-width: $phoneWidth) {
+//     font-size: 14px;
+//   }
+// }
 
 body {
   margin: 0;
@@ -79,19 +79,15 @@ section,
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   margin: 0 auto;
   min-height: 100vh;
   min-width: 100vh;
 
 }
 
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
 
 .container {
   width: 100%;
@@ -111,6 +107,15 @@ section,
   @media screen and (max-width: $phoneWidth) {
     max-width: $smPhoneWidth;
   }
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 
