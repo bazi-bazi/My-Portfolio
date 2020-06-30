@@ -3,7 +3,7 @@
 @import "utils/mixins";
 @import "utils/fonts";
 @import "utils/reset";
-@import "blocks/header";
+@import "./blocks/header";
 
 // html {
 //   line-height: $mainLineHeight;
@@ -24,11 +24,19 @@
 //   }
 // }
 
+html {
+  font-size: 16px;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: $mainFont;
-  font-size: 16px;
+
   font-weight: $mainFontWeight;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
