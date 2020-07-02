@@ -4,6 +4,7 @@
 @import "utils/fonts";
 @import "utils/reset";
 @import "./blocks/header";
+@import "./blocks/biography";
 
 // html {
 //   line-height: $mainLineHeight;
@@ -87,11 +88,10 @@ section,
 }
 
 .wrapper {
-  // display: flex;
-  // flex-direction: column;
   margin: 0 auto;
-  min-height: 100vh;
-  min-width: 100vh;
+  width: 100%;
+  padding-left: 9%;
+  padding-right: 9%;
 
 }
 
@@ -118,7 +118,8 @@ section,
 }
 
 .center {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
